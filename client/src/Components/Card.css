@@ -1,0 +1,59 @@
+.card {
+    width: 331px;
+    height: 228px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 8px 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.candidate-detail {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.enrolled {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill span {
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 2px 5px;
+    display: block;
+    padding: 3px 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.amount {
+    margin: 25px 0;
+}

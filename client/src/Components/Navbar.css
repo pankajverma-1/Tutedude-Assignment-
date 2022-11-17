@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 4.56rem;
+    padding: 0 1rem;
+    background: #FFFFFF;
+    align-items: center;
+}
+
+.navItem ul {
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: rgba(128, 0, 128, 0.25);
+    cursor: pointer;
+}
+
+.profile,
+.navItem ul li:nth-child(-n+3) {
+    display: none;
+}
+
+.navItem ul li:nth-child(3) {
+    display: flex !important;
+    color: #800080;
+    gap: 5px;
+    align-items: center;
+}

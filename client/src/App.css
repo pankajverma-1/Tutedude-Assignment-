@@ -1,0 +1,83 @@
+.container {
+    margin: 0 1rem
+}
+
+.text-primary {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.link-path {
+    display: flex;
+    align-items: center;
+    height: 76px;
+    cursor: pointer;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .container {
+        margin: 0 7rem !important;
+    }
+    .navbar {
+        padding: 0 4.6rem !important;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0 11.68rem !important;
+    }
+    .effect {
+        display: block !important;
+    }
+    .slider {
+        display: flex;
+        overflow-x: hidden;
+        flex-wrap: nowrap !important;
+        justify-content: start !important;
+    }
+    .card {
+        margin-right: 10px !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        flex: none;
+    }
+    .profile,
+    .navItem ul li:nth-child(-n+3) {
+        display: list-item !important;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .walletAndRefContainer {
+        flex-direction: row !important;
+    }
+    .walletAndRefContainer .RefContainer {
+        padding: 0;
+    }
+    .walletAndRefContainer .RefCodeContainer {
+        margin: 0 0;
+        margin-left: 50px;
+    }
+    .walletAndRefContainer .RefContainer>div {
+        margin: 0px 30px;
+        flex: none;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
